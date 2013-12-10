@@ -206,7 +206,6 @@
 		41BC70E815BF81A5006A0A6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41BC70E115BF81A5006A0A6C /* main.m */; };
 		8C583FAD169DB6D500F63A10 /* CCEditBox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C583FA8169DB6D500F63A10 /* CCEditBox.cpp */; };
 		8C583FAE169DB6D500F63A10 /* CCEditBoxImplMac.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8C583FAC169DB6D500F63A10 /* CCEditBoxImplMac.mm */; };
-		BCE8229D17A3966B005315EC /* libcocos2dx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BCE8229C17A3964C005315EC /* libcocos2dx.a */; };
 		BCE822A017A3A577005315EC /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BCE8229E17A3A577005315EC /* HelloWorldScene.cpp */; };
 		BCE822A517A3A604005315EC /* CloseNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = BCE822A117A3A604005315EC /* CloseNormal.png */; };
 		BCE822A617A3A604005315EC /* CloseSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = BCE822A217A3A604005315EC /* CloseSelected.png */; };
@@ -218,7 +217,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		BCE8229B17A3964C005315EC /* PBXContainerItemProxy */ = {
+		BC8EAA5F183DF1B50058C886 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 15C156C21683158700D239F2 /* cocos2dx.xcodeproj */;
 			proxyType = 2;
@@ -230,7 +229,7 @@
 /* Begin PBXFileReference section */
 		15AA9F3A15B7EF960033D6C2 /* AppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppDelegate.cpp; sourceTree = "<group>"; };
 		15AA9F3B15B7EF960033D6C2 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		15C156C21683158700D239F2 /* cocos2dx.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = cocos2dx.xcodeproj; path = "../../../../Tools/cocos2d-x/cocos2d-x-2.1.4/cocos2dx/proj.mac/cocos2dx.xcodeproj"; sourceTree = "<group>"; };
+		15C156C21683158700D239F2 /* cocos2dx.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = cocos2dx.xcodeproj; path = ../../../cocos2dx/proj.mac/cocos2dx.xcodeproj; sourceTree = "<group>"; };
 		15C156CD1683159D00D239F2 /* Box2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Box2D.h; sourceTree = "<group>"; };
 		15C156CF1683159D00D239F2 /* b2BroadPhase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2BroadPhase.cpp; sourceTree = "<group>"; };
 		15C156D01683159D00D239F2 /* b2BroadPhase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2BroadPhase.h; sourceTree = "<group>"; };
@@ -648,7 +647,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCE8229D17A3966B005315EC /* libcocos2dx.a in Frameworks */,
 				15C6498716633E65007D4F18 /* libcurl.a in Frameworks */,
 				15C64833165F3AFD007D4F18 /* Foundation.framework in Frameworks */,
 				15C64831165F39AB007D4F18 /* libxml2.dylib in Frameworks */,
@@ -1436,10 +1434,10 @@
 			name = CCEditBox;
 			sourceTree = "<group>";
 		};
-		BCE8229817A3964C005315EC /* Products */ = {
+		BC8EAA5C183DF1B50058C886 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BCE8229C17A3964C005315EC /* libcocos2dx.a */,
+				BC8EAA60183DF1B50058C886 /* libcocos2dx.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1487,7 +1485,7 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = BCE8229817A3964C005315EC /* Products */;
+					ProductGroup = BC8EAA5C183DF1B50058C886 /* Products */;
 					ProjectRef = 15C156C21683158700D239F2 /* cocos2dx.xcodeproj */;
 				},
 			);
@@ -1499,11 +1497,11 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		BCE8229C17A3964C005315EC /* libcocos2dx.a */ = {
+		BC8EAA60183DF1B50058C886 /* libcocos2dx.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libcocos2dx.a;
-			remoteRef = BCE8229B17A3964C005315EC /* PBXContainerItemProxy */;
+			remoteRef = BC8EAA5F183DF1B50058C886 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
